@@ -28,7 +28,7 @@ jobs:
     - name: Run a one-line script
       run: echo Hello, world!
         
-    - name: Run linter
+    - name: Run jest
         # Run Linter
       run: |
-        make lint
+        npm test
