@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "hexlet": "bin/nodejs-package.js"
+    "jest": "bin/jest-package.js"
   },
   "engines": {
     "node": ">=14"
