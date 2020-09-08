@@ -2,7 +2,12 @@
   "name": "jest-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "hexlet": "bin/nodejs-package.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
     "test": "npx -n --experimental-vm-modules jest"
   },
