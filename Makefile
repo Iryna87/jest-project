@@ -1,6 +1,9 @@
   
 install: install-deps
 
+run:
+	bin/jest-package.js
+
 install-deps:
 	npm ci
 
